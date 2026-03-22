@@ -1,0 +1,61 @@
+body {
+    margin: 0px;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 32px;
+    color: rgb(0, 133, 209);
+    background-color: #ffffff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    height: 70px;
+}
+
+header nav {
+    color: #006eff;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 25px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #0085d1;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px;
+}
+
+section .kotak {
+    display: flex;
+    background-color: #0085d1;
+    border-radius: 8px;
+    margin: 16px;
+    padding: 16px 36px;
+}
+
+section .kotak h4 {
+    margin: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: bold;
+}
