@@ -7,55 +7,55 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 8px 32px;
-    color: rgb(0, 133, 209);
-    background-color: #ffffff;
+    padding: 0.5rem 2rem;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-    height: 70px;
 }
 
-header nav {
+header h1 {
     color: #006eff;
-    font-size: 1em;
-    font-weight: bold;
+    font-size: 1.5rem;
 }
 
-header nav ul {
+nav ul {
     display: flex;
     list-style: none;
-    margin: 0;
-    padding: 0;
     gap: 25px;
 }
 
-header nav ul li a{
+nav a{
     text-decoration: none;
     color: #333;
     font-weight: 500;
     transition: 0.3s;
 }
 
-header nav ul li a:hover {
+nav a:hover {
     color: #0085d1;
 }
 
-section {
+.container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    padding: 32px;
+    padding: 2rem;
+    gap: 20px;
 }
 
-section .kotak {
+.content-hero {
     display: flex;
-    background-color: #0085d1;
-    border-radius: 8px;
-    margin: 16px;
-    padding: 16px 36px;
+    flex-wrap: wrap;
+    gap: 2rem;
 }
 
-section .kotak h4 {
-    margin: 8px;
-    color: #fff;
-    font-size: 1.2em;
-    font-weight: bold;
+.kotak{
+    display: grid;
+    background: #0085d1;
+    color: white;
+    border-radius: 8px;
+    padding: 1rem 4rem;
+    place-items: center;
+}
+
+.kotak h4 {
+    margin: 0;
 }
