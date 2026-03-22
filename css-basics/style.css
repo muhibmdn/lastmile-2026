@@ -93,9 +93,78 @@ nav a:hover {
     place-items: center;
 }
 
+.contact {
+    padding: 5rem 2rem;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto  ;
+    background-color: #fff;
+}
+
+.contact h2 {
+    text-align: center;
+    color: #001f4e;
+    margin-bottom: 3rem;
+}
+
+.contact-form {
+    display: flex;
+    align-items: flex-start;
+    gap: 5rem;
+}
+
+.contact-form img, 
+.contact-form form {
+    flex: 1; 
+    min-width: 0;
+}
+
+.contact-form img {
+    height: auto;
+    object-fit: contain;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    margin-bottom: 1.5rem;
+}
+
+input, textarea {
+    box-sizing: border-box;
+    display: block;
+    padding: 1rem;
+    border: 1.5px solid #e0e0e0;
+    border-radius: 8px;
+    font-family: inherit;
+    width: 100%;
+    max-width: 100%;
+}
+
+.btn-submit {
+    box-sizing: border-box;
+    width: 100%;
+    background: #006eff;
+    color: white;
+    font-weight: bold;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-submit:hover {
+    background-color: #004fb3;
+    transform: translateY(-2px);
+}
+
 footer {
     background: #001f4e;
     color: #4998ff;
+    font-weight: 500;
     text-align: center;
     padding: 1rem;
 }
+
