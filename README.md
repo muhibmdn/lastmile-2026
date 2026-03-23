@@ -8,3 +8,10 @@
 
 ## 2. Tugas CSS Basic
 - Box Model & Flex Container Setup
+- Navbar - Main Content - Form - Footer
+
+## 3. Tugas CSS Advanced
+- Base Page Layout
+- Responsive Design Basics - Mobile First Styling (Media Queries)
+- CSS Grid layout
+- Responsive Design (Mobile - Tablet - Dekstop - TV)
