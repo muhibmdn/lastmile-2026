@@ -169,7 +169,32 @@ footer {
     padding: 1rem;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1110px) {
+
+	.container {
+		gap: 0;
+	}
+	
+	.hero {
+        width: 100%;
+    }
+
+	.content-hero {
+        width: 100%;
+        justify-content: center;
+    }
+
+	.contact {
+		margin-top: 2rem;
+        padding: 0;
+    }
+
+	.contact-form {
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
 
 	.hero {
 		width: 100%;
