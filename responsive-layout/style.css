@@ -1,0 +1,51 @@
+body {
+	margin: 0;
+	padding: 2rem;
+	font-family: "Segoe UI", Arial, sans-serif;
+	display: flex;
+	gap: 1rem;
+}
+
+.div1,
+.div2 {
+	flex: 1;
+	padding: 1.25rem;
+	font-size: 1.5rem;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 8px;
+}
+
+.div1 {
+	background-color: #9ed8ff;
+	color: #003b6f;
+}
+
+.div2 {
+	background-color: #ffe39a;
+	color: #6b4600;
+}
+
+@media screen and (max-width: 768px) {
+	body {
+		padding: 1rem;
+		gap: 0.75rem;
+	}
+
+	.div1,
+	.div2 {
+		font-size: 1.25rem;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	body {
+		flex-direction: column;
+	}
+
+	.div1,
+	.div2 {
+		width: 100%;
+		box-sizing: border-box;
+	}
+}

@@ -15,3 +15,7 @@
 - Responsive Design Basics - Mobile First Styling (Media Queries)
 - CSS Grid layout
 - Responsive Design (Mobile - Tablet - Dekstop - TV)
+
+## 4. Tugas Responsive Layout
+- Membuat folder responsive-layout (index.html, style.css, script.js)
+- Responsive Layouting All Device di style.css
