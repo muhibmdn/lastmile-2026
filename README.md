@@ -14,3 +14,4 @@
 - Base Page Layout
 - Responsive Design Basics - Mobile First Styling (Media Queries)
 - CSS Grid layout
+- Responsive Design (Mobile - Tablet - Dekstop - TV)
