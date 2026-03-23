@@ -97,8 +97,6 @@ nav a:hover {
 
 .contact {
     padding: 5rem 2rem;
-    max-width: 1200px;
-    width: 100%;
     margin: 0 auto  ;
     background-color: #fff;
 }
@@ -122,8 +120,9 @@ nav a:hover {
 }
 
 .contact-form img {
-    height: auto;
-    object-fit: contain;
+    max-width: 100%;
+	height: auto;
+	object-fit: contain;
 }
 
 .form-group {
@@ -173,60 +172,23 @@ footer {
 @media screen and (max-width: 768px) {
 
 	.hero {
-		place-items: center;
 		width: 100%;
+		text-align: center;
 	}
 
 	.content-hero {
-		justify-content: space-between;
 		width: 100%;
+		justify-content: space-between;
+		gap: 0;
 	}
 
 	.kotak {
-		padding: 1.5rem 2.5rem;
-	}
-
-	.lastmile-track {
-		justify-content: center;
-		width: 100%;
+		height: 8rem;
 	}
 
 	.track {
-		padding: 0;
-	}
-
-	.contact {
-		padding: 0;
-	}
-}
-
-@media screen and (max-width: 480px) {
-
-	header h1 {
-		font-size: 1rem;
-	}
-
-	nav ul {
-		display: none;
-	}
-
-	.content-hero {
-		display: flex;
-		flex-direction: column;
-		width: 100%;
-	}
-
-	.kotak{
 		width: 100%;
 		box-sizing: border-box;
-	}
-
-	.contact {
-		padding: 0;
-	}
-	
-	.contact-form img {
-		width: 100%;
 	}
 
 	.contact-form {
@@ -239,3 +201,45 @@ footer {
 	}
 }
 
+@media screen and (max-width: 600px) {
+
+	header h1 {
+		font-size: 1rem;
+	}
+
+	nav ul {
+		display: none;
+	}
+
+	.hero, .hero h2 {
+		text-align: center;
+		width: 100%;
+	}
+
+	.content-hero {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		gap: 1rem;
+	}
+
+	.kotak{
+		width: 100%;
+		height: auto;
+		box-sizing: border-box;
+	}
+
+	.track {
+		width: 100%;
+		box-sizing: border-box;
+	}
+
+	.contact-form {
+		flex-direction: column;
+		gap: 2rem;
+	}
+
+	form {
+		width: 100%;
+	}
+}
