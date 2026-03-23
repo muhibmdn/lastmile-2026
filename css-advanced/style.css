@@ -170,3 +170,30 @@ footer {
     padding: 1rem;
 }
 
+@media screen and (max-width: 480px) {
+
+	.content-hero {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.kotak{
+		width: 100%;
+		box-sizing: border-box;
+	}
+
+	.contact {
+		padding: 0;
+	}
+
+	.contact-form {
+		flex-direction: column;
+		gap: 2rem;
+	}
+
+	.contact-form img {
+		width: 100%;
+	}	
+}
+
