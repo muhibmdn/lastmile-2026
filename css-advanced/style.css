@@ -170,7 +170,45 @@ footer {
     padding: 1rem;
 }
 
+@media screen and (max-width: 768px) {
+
+	.hero {
+		place-items: center;
+		width: 100%;
+	}
+
+	.content-hero {
+		justify-content: space-between;
+		width: 100%;
+	}
+
+	.kotak {
+		padding: 1.5rem 2.5rem;
+	}
+
+	.lastmile-track {
+		justify-content: center;
+		width: 100%;
+	}
+
+	.track {
+		padding: 0;
+	}
+
+	.contact {
+		padding: 0;
+	}
+}
+
 @media screen and (max-width: 480px) {
+
+	header h1 {
+		font-size: 1rem;
+	}
+
+	nav ul {
+		display: none;
+	}
 
 	.content-hero {
 		display: flex;
@@ -186,14 +224,18 @@ footer {
 	.contact {
 		padding: 0;
 	}
+	
+	.contact-form img {
+		width: 100%;
+	}
 
 	.contact-form {
 		flex-direction: column;
 		gap: 2rem;
 	}
 
-	.contact-form img {
+	form {
 		width: 100%;
-	}	
+	}
 }
 
