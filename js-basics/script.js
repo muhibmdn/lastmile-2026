@@ -59,3 +59,17 @@ console.log("Quotient:", quotient);
 let modulus = d % e;
 console.log("Modulus:", modulus);
 
+// Subtask 4.2 Use Comparison and Logical Operators
+let f = 10;
+let g = 20;
+let h = true;
+let i = false;
+
+console.log("f < g:", f < g);
+console.log("f > g:", f > g);
+console.log("f <= g:", f <= g);
+console.log("f >= g:", f >= g);
+console.log("h && i:", h && i);
+console.log("h || i:", h || i);
+console.log("!h:", !h);
+console.log("!i:", !i);
