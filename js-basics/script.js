@@ -39,3 +39,23 @@ console.log("a < b:", a < b);
 console.log("a >= b:", a >= b);
 console.log("a <= b:", a <= b);
 
+// Subtask 4.1 Use Arithmetic Operators
+let d = 15;
+let e = 5;
+
+// Addition
+let sum = d + e;
+console.log("Sum:", sum);
+// Subtraction
+let difference = d - e;
+console.log("Difference:", difference);
+// Multiplication
+let product = d * e;
+console.log("Product:", product);
+// Division
+let quotient = d / e;
+console.log("Quotient:", quotient);
+// Modulus
+let modulus = d % e;
+console.log("Modulus:", modulus);
+
