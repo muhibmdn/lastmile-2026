@@ -23,3 +23,19 @@ console.log("String:", string);
 console.log("Boolean:", boolean);
 console.log("Array:", array);
 console.log("Object:", object);
+
+// Subtask 3.2 Check Data Types
+let a = 5;
+let b = 10;
+let c = "5";
+
+console.log("a == b:", a == b);
+console.log("a == c:", a == c);
+console.log("a === c:", a === c);
+console.log("a != b:", a != b);
+console.log("a !== c:", a !== c);
+console.log("a > b:", a > b);
+console.log("a < b:", a < b);
+console.log("a >= b:", a >= b);
+console.log("a <= b:", a <= b);
+
