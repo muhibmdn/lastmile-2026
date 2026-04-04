@@ -11,3 +11,21 @@ if (nilai >= 81) {
 }else {
 	console.log("Nilai E")
 }
+
+// Subtask 3.1 Add loop examples
+// Loop for 1 to 10
+for (let a = 1; a <= 10; a++) {
+	console.log(a)
+}
+// Loop While
+let b = 1
+while (b <= 10) {
+	console.log(b)
+	b++
+}
+// Loop Do While
+let c = 10
+do {
+	console.log(c)
+	c++
+}while (c < 10)
