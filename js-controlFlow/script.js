@@ -29,3 +29,25 @@ do {
 	console.log(c)
 	c++
 }while (c < 10)
+
+// Subtask 4.1 Create reusable functions
+function greet(name) {
+	console.log("Assalamualaikum, " + name + "!")
+}
+greet("Muhib")
+// Function with return value
+function add(x, y) {
+	return x + y
+}
+let sum = add(5, 3)
+console.log("Hasil penjumlahan: " + sum)
+// Function with default parameter
+function greetWithDefault(name = "Guest") {
+	console.log("Hello, " + name + "!")
+}
+greetWithDefault() // Output: Hello, Guest!
+greetWithDefault("Muhib") // Output: Hello, Muhib!
+// Function ES6 Arrow Function
+const multiply = (x, y) => x * y
+let product = multiply(4, 6)
+console.log("Hasil perkalian: " + product)
