@@ -1,4 +1,4 @@
-// Subtask 2.2 Use Array Methods
+// Subtask 2.1 Create Arrays
 let angka = [1, 2, 3, 4, 5];
 let nama = ["Muhib", "Ahmad", "Wildan", "Fawas"];
 let daftarStatus = [true, false, true, false];
@@ -25,4 +25,22 @@ console.log(nama);
 console.log(daftarStatus);	
 console.log(campuran);
 console.log(matriks);
-console.log(siswa);	
+console.log(siswa);
+
+// Subtask 2.2 Use Array Methods
+
+let angkaBuatPushnPop = [1, 2, 3];
+angkaBuatPushnPop.push(4);
+console.log("Tambah elemen di belakang: ", angkaBuatPushnPop);
+angkaBuatPushnPop.pop();
+console.log("Hapus elemen di terakhir: ", angkaBuatPushnPop);
+
+let angkaBuatShiftnUnshift = [1, 2, 3];
+angkaBuatShiftnUnshift.unshift(0);
+console.log("Tambah elemen 0 di awal: ", angkaBuatShiftnUnshift);
+angkaBuatShiftnUnshift.shift();
+console.log("Hapus elemen pertama: ", angkaBuatShiftnUnshift);
+
+let angka1sampai20 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
+let panjang = angka1sampai20.length;
+console.log("Panjang array: ", panjang);
