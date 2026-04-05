@@ -76,3 +76,23 @@ console.log(kampus.nama);
 console.log(kampus.jurusan[0].nama);
 console.log(kampus.jurusan[1].mhs[2].nama);
 console.log(kampus.jurusan[1].mhs[1].umur);
+
+// Step 4: Use Built-in Methods
+// Subtask 4.1 Apply Array Processing Methods
+
+let angka1sampai10 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let angkaDikali3 = angka1sampai10.map(x => x * 3);
+console.log("Angka dikali 3: ", angkaDikali3);
+
+let angkaGanjil = angkaDikali3.filter(x => x % 2 !== 0);
+console.log("Angka ganjil: ", angkaGanjil);
+
+// Subtask 4.2 Combine Objects and Arrays
+let mahasiswa = [
+	{"nama": "Muhib", "nilai": 85},
+	{"nama": "Ahmad", "nilai": 90},
+	{"nama": "Wildan", "nilai": 78},
+	{"nama": "Fawas", "nilai": 92}
+];
+let namaMahasiswa = mahasiswa.map(mhs => mhs.nama);
+console.log("Nama mahasiswa: ", namaMahasiswa);
